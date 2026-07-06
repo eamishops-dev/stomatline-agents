@@ -1,2 +1,48 @@
-# stomatline-agents
-Odoo ERP Agent; Client Retention Architect; AI Innovation Agent; Procurement Agent; Finance Agent; Sales Agent; Warehouse Agent; Logistics Agent; Development Engine Agent
+# Система 9 агентів StomatLine (Cowork + GitHub + Asana) — спрощена модель
+
+## Дерево репозиторію (GitHub)
+```
+repo/
+├── Strategy.MD                  # єдиний якір для всіх 9 (надає Амір, агенти не редагують)
+├── Library.MD                   # першочергове джерело знань (агенти не редагують)
+├── prompts/                     # 9 промтів PROMT_agent_*.md
+├── Knowledge/
+│   ├── _index.md                # 1 рядок на кожен дайджест УСІХ агентів (крос-зв'язки + антиповтор)
+│   ├── odoo_erp/  client_retention/  ai_innovation/  procurement/
+│   ├── finance/  sales/  warehouse/  logistics/  development_engine/
+└── cowork/COWORK_INSTRUCTIONS.md
+```
+
+## Процес одного запуску
+1. Прочитай свій `prompts/PROMT_agent_<X>.md`.
+2. `Strategy.MD` (якір) → `Library.MD` (лише релевантне ніші) → `Knowledge/_index.md` (УСІ ніші: зв'язки + не повторюйся) → свої 3 останні дайджести (нумерація).
+3. Згенеруй 1 фігуру за принципом трьох тіл (визначення — у Strategy.MD).
+4. Якісний шлюз: 0–100, три лінзи (Скептик/Спрощувач/Користувач), доведи до ≥95. Немає сильного → «сильних кандидатів немає».
+5. Запиши `Knowledge/<папка>/DIGEST_YYYY-MM-DD.md` + 1 рядок у `_index.md` → коміт.
+6. Надішли дайджест в Asana: проект **Company North Star**, коментар у постійну задачу `[Agent] <Назва>`.
+
+## Оцінка і навчання (спрощено)
+- **Єдине місце оцінки — Asana.** Амір обдумує кожну фігуру і коментує її в задачі. Окремого файлу уроків немає.
+- **Ремонт поведінки агента = правка його промту.** Якщо агент повторює небажаний тип фігур — Амір додає один рядок-заборону в `prompts/PROMT_agent_<X>.md`.
+- Антиповтор фігур — через `_index.md` і власні дайджести.
+
+## Розклад і префікси
+| Час | Агент | Префікс |
+|---|---|---|
+| 19:00 | Odoo ERP Agent | ODOO- |
+| 19:05 | Client Retention Architect | RET- |
+| 19:10 | AI Innovation Agent | AI- |
+| 19:15 | Procurement Agent | PROC- |
+| 19:20 | Finance Agent | FIN- |
+| 19:25 | Sales Agent | SALES- |
+| 19:30 | Warehouse Agent | WH- |
+| 19:35 | Logistics Agent | LOG- |
+| 19:40 | Development Engine Agent | DEV- |
+
+Формат рядка `_index.md`:
+`[дата] [ПРЕФІКС-N] [ніша] — [назва]: [суть одним реченням] → Knowledge/<папка>/DIGEST_....md`
+
+## Правила цілісності
+- Strategy.MD і Library.MD агенти не редагують. Кожен пише тільки у свою папку + рядок у _index.md.
+- Фільтр кожної фігури — питання зі Strategy.MD: «Чи збільшує це довгострокову вартість компанії? Чи посилює клієнтську гравітацію?»
+- Дайджест читається за 5 хвилин. Краще 0, ніж шум.
