@@ -9,3 +9,4 @@
 [2026-07-06] [WH-1] [warehouse] — Ворота приймання: карантин + чекліст 5 пунктів, на полицю тільки після validate → Knowledge/warehouse/DIGEST_2026-07-06.md
 [2026-07-06] [LOG-1] [logistics] — Зворотний рейс не порожній: задачі повернень/документів у маршрутному листі → Knowledge/logistics/DIGEST_2026-07-06.md
 [2026-07-06] [DEV-1] [development_engine] — Правило вхідних воріт: мінімальний паспорт для 4 сутностей + блокування активації → Knowledge/development_engine/DIGEST_2026-07-06.md
+[2026-07-06] [PROC-2] [procurement] — Паспорт постачальника: 6 полів умов і надійності в Odoo + supplier score і порівняльна картка в момент PO → Knowledge/procurement/DIGEST_2026-07-06.md
