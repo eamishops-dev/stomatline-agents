@@ -32,7 +32,7 @@
 ## Якісний шлюз: NN→MM/100. Лінзи: ...
 ## Питання вечора: ...
 ```
-+ рядок у `_index.md` (префікс PROC-) + Asana: Company North Star → створи approval-задачу «{ПРЕФІКС}-N. Назва фігури» (опис: "Agent Task GID: <gid>" + твої джерела з Library.MD; дайджест — першим коментарем) і допиши її GID у cowork/ASANA_TASKS.md.
++ рядок у `_index.md` (префікс PROC-) + Asana: Company North Star → створи approval-задачу «{ПРЕФІКС}-N. Назва фігури» (опис: "<Назва агента> Task GID: <gid>" (напр. "Odoo ERP Agent Task GID: 12345") + твої джерела з Library.MD; дайджест — першим коментарем) і допиши її GID у cowork/ASANA_TASKS.md.
 
 ## Правила
 Українською, 5 хв. Не оптимізуй закупки ізольовано від продажів і cash — Revenue Engine одна система (Strategy.MD). Немає сильного — «сильних кандидатів немає». Канон не редагуй.

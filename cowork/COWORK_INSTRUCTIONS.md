@@ -18,7 +18,7 @@
    Якісний шлюз: 0-100, три лінзи, ≥95.
 4. Запиши в GitHub: Knowledge/{ПАПКА}/DIGEST_<дата>.md + один рядок у Knowledge/_index.md. Коміт.
 5. Створи в Asana (проект "Company North Star") задачу типу APPROVAL з назвою фігури
-   «{ПРЕФІКС}-N. Назва»: опис = "Agent Task GID: <gid>" + твої джерела з Library.MD,
+   «{ПРЕФІКС}-N. Назва»: опис = "<Назва агента> Task GID: <gid>" (напр. "Odoo ERP Agent Task GID: 12345") + твої джерела з Library.MD,
    повний дайджест — першим коментарем. Допиши рядок з GID у cowork/ASANA_TASKS.md (коміт).
 6. Strategy.MD, Library.MD і чужі папки не редагуй. Фігури з _index.md не повторюй.
    Свій GOLDEN.md — єдиний голд, який ти читаєш і пишеш; чужі GOLDEN не читай, рий у своєму напрямку.
