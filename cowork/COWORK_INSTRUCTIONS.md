@@ -17,23 +17,26 @@
 3. Згенеруй 1 фігуру за принципом трьох тіл (визначення — у Strategy.MD).
    Якісний шлюз: 0-100, три лінзи, ≥95.
 4. Запиши в GitHub: Knowledge/{ПАПКА}/DIGEST_<дата>.md + один рядок у Knowledge/_index.md. Коміт.
-5. Надішли повний дайджест в Asana: проект "Company North Star",
-   коментар у свою постійну задачу (GID — у cowork/ASANA_TASKS.md).
+5. Створи в Asana (проект "Company North Star") задачу типу APPROVAL з назвою фігури
+   «{ПРЕФІКС}-N. Назва»: опис = "Agent Task GID: <gid>" + твої джерела з Library.MD,
+   повний дайджест — першим коментарем. Допиши рядок з GID у cowork/ASANA_TASKS.md (коміт).
 6. Strategy.MD, Library.MD і чужі папки не редагуй. Фігури з _index.md не повторюй.
+   Свій GOLDEN.md — єдиний голд, який ти читаєш і пишеш; чужі GOLDEN не читай, рий у своєму напрямку.
+   Не поспішай: якість понад швидкість, на цикл є 15 хвилин.
 ```
 
 ## 9 ЗАДАЧ
 | # | Час (Київ) | НАЗВА_АГЕНТА | ФАЙЛ_ПРОМТУ | ПАПКА |
 |---|---|---|---|---|
 | 1 | 19:00 | Odoo ERP Agent | PROMT_agent_odoo_erp.md | odoo_erp |
-| 2 | 19:05 | Client Retention Architect | PROMT_agent_client_retention.md | client_retention |
-| 3 | 19:10 | AI Innovation Agent | PROMT_agent_ai_innovation.md | ai_innovation |
-| 4 | 19:15 | Procurement Agent | PROMT_agent_procurement.md | procurement |
-| 5 | 19:20 | Finance Agent | PROMT_agent_finance.md | finance |
-| 6 | 19:25 | Sales Agent | PROMT_agent_sales.md | sales |
-| 7 | 19:30 | Warehouse Agent | PROMT_agent_warehouse.md | warehouse |
-| 8 | 19:35 | Logistics Agent | PROMT_agent_logistics.md | logistics |
-| 9 | 19:40 | Development Engine Agent | PROMT_agent_development_engine.md | development_engine |
+| 2 | 19:15 | Client Retention Architect | PROMT_agent_client_retention.md | client_retention |
+| 3 | 19:30 | AI Innovation Agent | PROMT_agent_ai_innovation.md | ai_innovation |
+| 4 | 19:45 | Procurement Agent | PROMT_agent_procurement.md | procurement |
+| 5 | 20:00 | Finance Agent | PROMT_agent_finance.md | finance |
+| 6 | 20:15 | Sales Agent | PROMT_agent_sales.md | sales |
+| 7 | 20:30 | Warehouse Agent | PROMT_agent_warehouse.md | warehouse |
+| 8 | 20:45 | Logistics Agent | PROMT_agent_logistics.md | logistics |
+| 9 | 21:00 | Development Engine Agent | PROMT_agent_development_engine.md | development_engine |
 
-> Час рознесено на 5 хв навмисно: 9 одночасних комітів у один репо і один _index.md дадуть конфлікти.
-> Оцінка фігур — тільки коментарями Аміра в Asana. Ремонт агента — правка його промту.
+> Час рознесено на 15 хв навмисно: агенту дається повний цикл без поспіху (якість понад швидкість), і коміти в один репо не конфліктують.
+> Оцінка фігур — кнопки Approve («Прийняти») / Reject («Відхилити») / Request changes («Доопрацювати») в approval-задачі, + коментар за потреби. Ремонт агента — правка його промту.
