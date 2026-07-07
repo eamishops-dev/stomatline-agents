@@ -31,15 +31,15 @@ repo/
 ## Розклад і префікси
 | Час | Агент | Префікс |
 |---|---|---|
-| 18:00 | Odoo ERP Agent | ODOO- |
-| 18:15 | Client Retention Architect | RET- |
-| 18:30 | AI Innovation Agent | AI- |
-| 18:45 | Procurement Agent | PROC- |
-| 19:00 | Finance Agent | FIN- |
-| 19:15 | Sales Agent | SALES- |
-| 19:30 | Warehouse Agent | WH- |
-| 19:45 | Logistics Agent | LOG- |
-| 20:00 | Development Engine Agent | DEV- |
+| 03:45 | Odoo ERP Agent | ODOO- |
+| 05:15 | Client Retention Architect | RET- |
+| 03:00 | AI Innovation Agent | AI- |
+| 21:30 | Procurement Agent | PROC- |
+| 22:00 | Finance Agent | FIN- |
+| 22:30 | Sales Agent | SALES- |
+| 23:00 | Warehouse Agent | WH- |
+| 23:30 | Logistics Agent | LOG- |
+| 04:30 | Development Engine Agent | DEV- |
 
 Формат рядка `_index.md`:
 `[дата] [ПРЕФІКС-N] [ніша] — [назва]: [суть одним реченням] → Knowledge/<папка>/DIGEST_....md`
