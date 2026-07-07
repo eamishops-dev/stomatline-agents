@@ -11,3 +11,4 @@
 [2026-07-06] [DEV-1] [development_engine] — Правило вхідних воріт: мінімальний паспорт для 4 сутностей + блокування активації → Knowledge/development_engine/DIGEST_2026-07-06.md
 [2026-07-06] [PROC-2] [procurement] — Паспорт постачальника: 6 полів умов і надійності в Odoo + supplier score і порівняльна картка в момент PO → Knowledge/procurement/DIGEST_2026-07-06.md
 [2026-07-07] [ODOO-2] [odoo_erp] — Накладна без клавіатури: OCR-чернетка vendor bill + 3-way match + ціновий вартовий проти supplierinfo → Knowledge/odoo_erp/DIGEST_2026-07-07.md
+[2026-07-07] [ODOO-3] [odoo_erp] — Живий залишок: циклічна інвентаризація ABC щодня замість річного авралу; точність запасів як процес → Knowledge/odoo_erp/DIGEST_2026-07-07.md
