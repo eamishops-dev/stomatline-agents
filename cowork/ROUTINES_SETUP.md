@@ -7,7 +7,7 @@ Routines — хмарні запуски Claude Code: працюють без у
 1. Name: як у заголовку нижче.
 2. Instructions: скопіюй промпт з блоку нижче.
 3. Repository: eamishops-dev/stomatline-agents.
-4. Permissions → УВІМКНИ "Allow unrestricted branch pushes" для репо (інакше агент не зможе пушити в main).
+4. Пуш у main: у поточному UI немає перемикача "Allow unrestricted branch pushes", тому один раз додай токен у середовище: у формі routine клікни «Default» (іконка хмаринки) → налаштування середовища → Environment variables → GITHUB_TOKEN = <твій PAT з правами Contents:write>. Середовище Default спільне для всіх routines — робиться один раз. Агенти пушать через нього (правило вже в prompts/*.md).
 5. Environment: Default (Trusted network достатньо; конектор Asana проходить через сервери Anthropic).
    Для AI Innovation Agent, якщо потрібен доступ до новинних сайтів поза allowlist — постав Network access: Custom і додай anthropic.com, openai.com, odoo.com (або Full).
 6. Connectors: залиш ТІЛЬКИ Asana. Решту прибери.
