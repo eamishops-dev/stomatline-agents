@@ -28,15 +28,15 @@
 ## 9 ЗАДАЧ
 | # | Час (Київ) | НАЗВА_АГЕНТА | ФАЙЛ_ПРОМТУ | ПАПКА |
 |---|---|---|---|---|
-| 1 | 18:00 | Odoo ERP Agent | PROMT_agent_odoo_erp.md | odoo_erp |
-| 2 | 18:15 | Client Retention Architect | PROMT_agent_client_retention.md | client_retention |
-| 3 | 18:30 | AI Innovation Agent | PROMT_agent_ai_innovation.md | ai_innovation |
-| 4 | 18:45 | Procurement Agent | PROMT_agent_procurement.md | procurement |
-| 5 | 19:00 | Finance Agent | PROMT_agent_finance.md | finance |
-| 6 | 19:15 | Sales Agent | PROMT_agent_sales.md | sales |
-| 7 | 19:30 | Warehouse Agent | PROMT_agent_warehouse.md | warehouse |
-| 8 | 19:45 | Logistics Agent | PROMT_agent_logistics.md | logistics |
-| 9 | 20:00 | Development Engine Agent | PROMT_agent_development_engine.md | development_engine |
+| 1 | 03:45 | Odoo ERP Agent | PROMT_agent_odoo_erp.md | odoo_erp |
+| 2 | 05:15 | Client Retention Architect | PROMT_agent_client_retention.md | client_retention |
+| 3 | 03:00 | AI Innovation Agent | PROMT_agent_ai_innovation.md | ai_innovation |
+| 4 | 21:30 | Procurement Agent | PROMT_agent_procurement.md | procurement |
+| 5 | 22:00 | Finance Agent | PROMT_agent_finance.md | finance |
+| 6 | 22:30 | Sales Agent | PROMT_agent_sales.md | sales |
+| 7 | 23:00 | Warehouse Agent | PROMT_agent_warehouse.md | warehouse |
+| 8 | 23:30 | Logistics Agent | PROMT_agent_logistics.md | logistics |
+| 9 | 04:30 | Development Engine Agent | PROMT_agent_development_engine.md | development_engine |
 
-> Час рознесено на 15 хв навмисно: агенту дається повний цикл без поспіху (якість понад швидкість), і коміти в один репо не конфліктують.
+> Агенту дається повний цикл без поспіху (якість понад швидкість), і коміти в один репо не конфліктують.
 > Оцінка фігур — кнопки Approve («Прийняти») / Reject («Відхилити») / Request changes («Доопрацювати») в approval-задачі, + коментар за потреби. Ремонт агента — правка його промту.
