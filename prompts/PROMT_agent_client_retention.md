@@ -46,4 +46,4 @@
 Читай і пиши ТІЛЬКИ свій GOLDEN.md — чужі не читай, рий у своєму напрямку.
 Не поспішай: якість понад швидкість, на цикл є 15 хвилин.
 
-Пуш у main (для хмарних routines): якщо `git push origin main` повертає 403 — пушни з токеном зі змінної середовища: `git push https://eamishops-dev:${GITHUB_TOKEN}@github.com/eamishops-dev/stomatline-agents.git HEAD:main`. Якщо і це недоступно — заверши ран із чітким звітом, які файли не запушено.
+Пуш у main (для хмарних routines): пуш одразу з токеном — `git push https://eamishops-dev:${GITHUB_TOKEN}@github.com/eamishops-dev/stomatline-agents.git HEAD:main`. Якщо GITHUB_TOKEN відсутній або пуш впав — БЕЗ повторних спроб і ретраїв зроби одну спробу `git push origin HEAD:main`; якщо і вона впала — одразу заверши ран із чітким звітом, які файли не запушено.
