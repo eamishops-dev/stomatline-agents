@@ -18,22 +18,22 @@ Routines — хмарні запуски Claude Code: працюють без у
 | Час | Routine |
 |---|---|
 
-| 18:00 | StomatLine — Odoo ERP Agent |
-| 18:15 | StomatLine — Client Retention Architect |
-| 18:30 | StomatLine — AI Innovation Agent |
-| 18:45 | StomatLine — Procurement Agent |
-| 19:00 | StomatLine — Finance Agent |
-| 19:15 | StomatLine — Sales Agent |
-| 19:30 | StomatLine — Warehouse Agent |
-| 19:45 | StomatLine — Logistics Agent |
-| 20:00 | StomatLine — Development Engine Agent |
+| 03:45 | StomatLine — Odoo ERP Agent |
+| 05:15 | StomatLine — Client Retention Architect |
+| 03:00 | StomatLine — AI Innovation Agent |
+| 21:30 | StomatLine — Procurement Agent |
+| 22:00 | StomatLine — Finance Agent |
+| 22:30 | StomatLine — Sales Agent |
+| 23:00 | StomatLine — Warehouse Agent |
+| 23:30 | StomatLine — Logistics Agent |
+| 04:30 | StomatLine — Development Engine Agent |
 
 > Після переносу вимкнути локальні scheduled-задачі на десктопі, щоб не було подвійних запусків.
 
 ---
 
 
-## Routine: StomatLine — Odoo ERP Agent (18:00)
+## Routine: StomatLine — Odoo ERP Agent (03:45)
 
 ```
 Ти — Odoo ERP Agent компанії StomatLine. Виконай щоденний цикл генерації однієї фігури.
@@ -53,7 +53,7 @@ Routines — хмарні запуски Claude Code: працюють без у
 ```
 
 
-## Routine: StomatLine — Client Retention Architect (18:15)
+## Routine: StomatLine — Client Retention Architect (05:15)
 
 ```
 Ти — Client Retention Architect компанії StomatLine. Виконай щоденний цикл генерації однієї фігури.
@@ -73,7 +73,7 @@ Routines — хмарні запуски Claude Code: працюють без у
 ```
 
 
-## Routine: StomatLine — AI Innovation Agent (18:30)
+## Routine: StomatLine — AI Innovation Agent (03:00)
 
 ```
 Ти — AI Innovation Agent компанії StomatLine. Виконай щоденний цикл генерації однієї фігури.
@@ -93,7 +93,7 @@ Routines — хмарні запуски Claude Code: працюють без у
 ```
 
 
-## Routine: StomatLine — Procurement Agent (18:45)
+## Routine: StomatLine — Procurement Agent (21:30)
 
 ```
 Ти — Procurement Agent компанії StomatLine. Виконай щоденний цикл генерації однієї фігури.
@@ -113,7 +113,7 @@ Routines — хмарні запуски Claude Code: працюють без у
 ```
 
 
-## Routine: StomatLine — Finance Agent (19:00)
+## Routine: StomatLine — Finance Agent (22:00)
 
 ```
 Ти — Finance Agent компанії StomatLine. Виконай щоденний цикл генерації однієї фігури.
@@ -133,7 +133,7 @@ Routines — хмарні запуски Claude Code: працюють без у
 ```
 
 
-## Routine: StomatLine — Sales Agent (19:15)
+## Routine: StomatLine — Sales Agent (22:30)
 
 ```
 Ти — Sales Agent компанії StomatLine. Виконай щоденний цикл генерації однієї фігури.
@@ -153,7 +153,7 @@ Routines — хмарні запуски Claude Code: працюють без у
 ```
 
 
-## Routine: StomatLine — Warehouse Agent (19:30)
+## Routine: StomatLine — Warehouse Agent (23:00)
 
 ```
 Ти — Warehouse Agent компанії StomatLine. Виконай щоденний цикл генерації однієї фігури.
@@ -173,7 +173,7 @@ Routines — хмарні запуски Claude Code: працюють без у
 ```
 
 
-## Routine: StomatLine — Logistics Agent (19:45)
+## Routine: StomatLine — Logistics Agent (23:30)
 
 ```
 Ти — Logistics Agent компанії StomatLine. Виконай щоденний цикл генерації однієї фігури.
@@ -193,7 +193,7 @@ Routines — хмарні запуски Claude Code: працюють без у
 ```
 
 
-## Routine: StomatLine — Development Engine Agent (20:00)
+## Routine: StomatLine — Development Engine Agent (04:30)
 
 ```
 Ти — Development Engine Agent компанії StomatLine. Виконай щоденний цикл генерації однієї фігури.
