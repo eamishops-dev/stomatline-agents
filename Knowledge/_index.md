@@ -13,3 +13,4 @@
 [2026-07-07] [ODOO-2] [odoo_erp] — Накладна без клавіатури: OCR-чернетка vendor bill + 3-way match + ціновий вартовий проти supplierinfo → Knowledge/odoo_erp/DIGEST_2026-07-07.md
 [2026-07-07] [ODOO-3] [odoo_erp] — Живий залишок: циклічна інвентаризація ABC щодня замість річного авралу; точність запасів як процес → Knowledge/odoo_erp/DIGEST_2026-07-07.md
 [2026-07-07] [AI-2] [ai_innovation] — Паспорт SKU заповнює AI: чернетка картки з 8 полями, кожне з показаним джерелом з прайсів постачальників → Knowledge/ai_innovation/DIGEST_2026-07-07.md
+[2026-07-07] [ODOO-4] [odoo_erp] — Дебіторка на автопілоті: обовʼязкові payment terms + драбина follow-up + credit limit на SO + Aged Receivable як процес платіжної дисципліни → Knowledge/odoo_erp/DIGEST_2026-07-07.md
